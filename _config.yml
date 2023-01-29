@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: PS homepage
+title: Pinetree Shine
 email: your-email@domain.com
 author: Pinetree Shine
 
@@ -40,16 +40,14 @@ author: Pinetree Shine
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #   "Unpublished Work (cleft) 2017-{currentYear} {author}"
-copyright: "Copyright (c) 2017-{currentYear} {author}"
+copyright: "(c) {currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Life in the US as a chemical engineer.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "" # the favicon for your site
+favicon: "/assets/images/fabicon/fabicon.png" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -65,37 +63,42 @@ yat:
 # If you want to change the content width, you can set to another value
 # content_width: "920px"
 
+# Google search console
+# https://search.google.com/search-console/welcome
+# how to: https://yenarue.github.io/tip/2020/04/30/Search-SEO/
+
+
 # Google analytics
 # google_analytics: [Tracking ID]
 
 # If you want to generate website sitemap, you can set true
-# sitemap: false
+sitemap: true
 
 # If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+lang: "ko"  # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
-# translate_langs:
-#   - lang: en
-#     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
-#     text: English
+translate_langs:
+  - lang: en
+    img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+    text: English
 #
 #   - lang: fr
 #     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
 #     text: French
 #
-#   - lang: zh-CN
-#     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-#     text: Chinese(Simple)
+  - lang: zh-CN
+    img: https://cdn.countryflags.com/thumbs/china/flag-400.png
+    text: Chinese(Simple)
 #
 #   - lang: ja
 #     img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
 #     text: Japanese
 #
-#   - lang: ko
-#     img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
-#     text: Korean
+#  - lang: ko
+#    img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
+#    text: Korean
 #
 #   - lang: ru
 #     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
@@ -147,18 +150,18 @@ yat:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-   - index.html
-   - archives.html
+#   - index.html
    - categories.html
    - tags.html
+   - archives.html
 #   - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+defaults:
+  home:
+    heading: "Life in the US"
+    subheading: "Chemical Engineer living in TX"
+    banner: "/assets/images/banners/home_crop.jpg" # need to change the link in index.html
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -171,7 +174,7 @@ header_pages:
 #   image: null             # Image banner source
 #   opacity: 1.0            # Banner opacity (100% is 1.0)
 #   background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
-#   height: "640px"         # Banner default height
+#   height: "640px"         # Banner default height - banner height adjusted in yat.scss
 #   min_height: null        # Banner minimum height
 #   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
@@ -198,12 +201,12 @@ header_pages:
 # See https://utteranc.es/
 # set follow_site_theme true to make utterances' theme follow the site's
 
-# utterances:
-#   repo: "owner/repo"
-#   issue_term: "title"
-#   label: "utterances comment"
-#   theme: "github-light"
-#   follow_site_theme: true
+utterances:
+  repo: "pinetree-shine/pinetree-shine-comments"
+  issue_term: "title"
+  label: "utterances comment"
+  theme: "github-light"
+  follow_site_theme: true
 
 # Build settings
 # highlighter: none
