@@ -69,8 +69,8 @@ yat:
 
 
 # Google analytics
-#google_analytics: [G-5L8JPGP6D8]
-google_analytics: G-5L8JPGP6D8
+google_analytics: [G-5L8JPGP6D8]
+# google_analytics: G-5L8JPGP6D8
 
 # If you want to generate website sitemap, you can set true
 sitemap: true
