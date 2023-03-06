@@ -1,7 +1,7 @@
 ---
 layout: post
 title: J-1 웨이버 신청서류 예시
-subtitle: Statement of reasnos, J-1 비자 취득 경위서
+subtitle: Statement of reasons, J-1 비자 취득 경위서
 categories: VISA
 tags: [VISA, J-1, waiver, DS-3035]
 ---

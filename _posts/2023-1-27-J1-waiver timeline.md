@@ -20,6 +20,7 @@ tags: [VISA, J-1, waiver]
     * submit waiver application and check status [here](https://j1visawaiverrecommendation.state.gov/)
 
 ## 2022 J-1 웨이버 타임라인
+  * 총 소요 기간: 7개월
   * Feb 22, 2022: Sent J-1 waiver application (USPS priority)
   * March 10, 2022: Requested No Objection Statement requirement to Korean Consulate (USPS priority)
   * March 18, 2022: Korean Embasys sent No Objection Statement to US DoS (Checked through e-mail)
