@@ -1,12 +1,14 @@
 ---
 layout: post
-title: J-1 웨이버 타임라인 (No objection)
+title: J-1 Waiver Timeline (No objection)
 subtitle: Waiver of the Exchange Visitor Two-Year Home-Country Physical Presence Requirement
 categories: VISA
 tags: [VISA, J-1, waiver]
+lang: en
+permalink: /visa/2023/01/27/J1_waiver_timeline.html
 ---
 
-유의사항: Waiver 신청 후에는 DS2019 연장이 더이상 불가능 하므로 신청 시기를 유의할 필요가 있음
+Eng test 유의사항: Waiver 신청 후에는 DS2019 연장이 더이상 불가능 하므로 신청 시기를 유의할 필요가 있음
   
 ## Waiver 신청절차
   * 신청인은 US Department of State (미국무부)로 온라인 신청서 작성 (case number 받음)

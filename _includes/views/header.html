@@ -39,7 +39,16 @@
               <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | upcase | escape }}</a>
               {%- endif -%}
             {%- endfor -%}
-            <!-- Songhyun removed translate menu
+
+              {% for lang in site.languages %}
+              <!--<li id="lang" style="float: right;">-->
+                <a style="{% if lang == site.active_lang %}font-weight: bold;{% endif %}text-align:center;" href="{% if lang == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ lang }}{{page.url}}{% endif %}">
+                  {{ lang }}
+                </a>
+              <!--</li>-->
+              {% endfor %}
+            
+<!--
             {%- assign name = 'translate_langs' -%}
             {%- include functions.html func='get_value' -%}
             {%- assign translate_langs = return -%}
@@ -47,11 +56,10 @@
               {%- assign name = 'lang' -%}
               {%- include functions.html func='get_value' default='en' -%}
               {%- assign lang = return -%}
-              <span class="page-link">
+              <div class="page-link" style="display: inline;">
                   {%- include extensions/google-translate.html -%}
-              </span>
-            {%- endif -%}
-            -->
+              </div>
+            {%- endif -%} -->
           </div>
         </nav>
       {%- endif -%}
