@@ -221,11 +221,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
-  - jekyll-polyglot
+ 
+ 
+ # jekyll-polyglot
 
 
-#Songhyun Polyglot
-languages: ["ko", "en"] #, "de", "fr"
-default_lang: "ko"
-exclude_from_localization: ["javascript", "images", "css", "public"]
-parallel_localization: false # 윈도우에서는 버그가 있어서 false로 해야 동작한다고 합니다. true
+##Songhyun Polyglot
+#languages: ["ko", "en"] #, "de", "fr"
+#default_lang: "ko"
+#exclude_from_localization: ["javascript", "images", "css", "public"]
+#parallel_localization: false # 윈도우에서는 버그가 있어서 false로 해야 동작한다고 합니다. true
